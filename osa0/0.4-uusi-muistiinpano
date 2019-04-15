@@ -6,10 +6,6 @@ note over selain:
 käyttäjä painaa tallenna
 end note
 
-note over selain:
-käyttäjä painaa tallenna
-end note
-
 selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/new_note
 palvelin-->selain: 302 /notes
 selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes
